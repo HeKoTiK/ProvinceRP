@@ -469,7 +469,7 @@ do -- Load items
 
 	Slider_2.Name = "Slider"
 	Slider_2.Parent = Inner
-	Slider_2.BackgroundColor3 = Color3.fromRGB(49, 88, 146)
+	Slider_2.BackgroundColor3 = Color3.fromRGB(221, 21, 21)
 	Slider_2.BorderSizePixel = 0
 	Slider_2.Position = UDim2.new(0, 10, 0, 0)
 	Slider_2.Size = UDim2.new(0, 5, 1, 0)
@@ -998,7 +998,7 @@ do -- Load items
 
 	Indicator_2.Name = "Indicator"
 	Indicator_2.Parent = Saturation
-	Indicator_2.BackgroundColor3 = Color3.fromRGB(49, 88, 146)
+	Indicator_2.BackgroundColor3 = Color3.fromRGB(221, 21, 21)
 	Indicator_2.BorderSizePixel = 0
 	Indicator_2.Size = UDim2.new(1, 0, 0, 2)
 
@@ -1070,7 +1070,7 @@ do -- Load items
 	Inner_3.Position = UDim2.new(0, 2, 0, 2)
 	Inner_3.Size = UDim2.new(1, -4, 1, -4)
 	Inner_3.Image = "rbxassetid://3570695787"
-	Inner_3.ImageColor3 = Color3.fromRGB(32, 59, 97)
+	Inner_3.ImageColor3 = Color3.fromRGB(153, 14, 14)
 	Inner_3.ScaleType = Enum.ScaleType.Slice
 	Inner_3.SliceCenter = Rect.new(100, 100, 100, 100)
 	Inner_3.SliceScale = 0.050
@@ -1988,9 +1988,9 @@ local library library = {
 					dropdownOptions = settings.new({
 						text = "New Dropdown",
 						size = 150,
-						color = Color3.fromRGB(32, 59, 97),
+						color = Color3.fromRGB(175, 16, 16),
 						rounding = options.rounding,
-						selectioncolor = Color3.fromRGB(32, 59, 97),
+						selectioncolor = Color3.fromRGB(179, 17, 17),
 					}).handle(dropdownOptions)
 
 					local dropdownButton = new("Dropdown")
